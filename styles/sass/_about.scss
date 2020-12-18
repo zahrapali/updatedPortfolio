@@ -1,0 +1,27 @@
+.aboutMe {
+
+// border-top: 2px solid black;  
+}
+.aboutSection {
+  margin: 50px;
+  display: flex;
+
+  .aboutItems {
+    width: 50vw;
+  }
+  .aboutCopysection {
+    padding-left: 40px;
+  }
+
+  img {
+    width: 50vw;
+  }
+  h3 {
+    font-size: 4rem;
+    text-align: left;
+  }
+  p {
+    font-size: 2rem;
+  }
+}
+

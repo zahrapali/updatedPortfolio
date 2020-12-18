@@ -1,0 +1,26 @@
+.skillSets{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    
+
+
+}
+
+.skillSets li i{
+    font-size: 6rem ;
+    color: white;
+    
+}
+
+.skillSets li{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 30px;
+
+}

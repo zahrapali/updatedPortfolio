@@ -1,0 +1,167 @@
+html {
+  font-size: 62.5%;
+  font-family: "Karla";
+}
+header {
+  // height: 100%;
+  height: 100vh;
+}
+
+nav {
+    box-shadow: 5px 5px 5px 5px rgba(238,238,238,0.5);
+    padding: 20px;
+
+  .navBar {
+    display: flex;
+    justify-content: space-around;
+    color: black;
+    font-size: 2rem;
+    text-transform: uppercase;
+    list-style-type: none;
+  }
+  .navList {
+    padding: 10px 25px;
+  }
+  .contactButton {
+    border: 1px solid black;
+  }
+  .contactButton:hover {
+    background-color: black;
+    color: white;
+  }
+}
+.headerContainer {
+  display: flex;
+  
+
+  .headerItem {
+    width: 50vw;
+  }
+  .headerItemCopy{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+  .headerImage {
+    width: 600px;
+    
+    // margin-top: 50px;
+    // box-shadow: -15px 15px black;
+    // box-shadow: -10px 10px white;
+  }
+}
+.name {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 4rem;
+  font-weight: 700;
+  color: black;
+  // margin-left: 150px;
+  margin-top: 200px;
+  text-transform: uppercase;
+}
+
+h2.title {
+  font-size: 3rem;
+  font-weight: 700;
+  color: black;
+  // margin-left: 150px;
+  // margin-top: ;
+}
+h3 {
+  font-size: 4rem;
+  font-weight: 700;
+  color: black;
+  // margin-top: 200px;
+  text-align: center;
+}
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+}
+
+li img {
+  height: 200px;
+  width: 200px;
+
+}
+
+.socialNav {
+  list-style-type: none;
+  display: flex;
+  padding-left: 0px;
+  li{
+    padding-right: 10px;
+    }
+  i {
+    color: black;
+    font-size: 5rem;
+    }
+  a{
+    color: white;
+    }
+  i:hover {
+   box-shadow: 5px 5px 5px 5px rgba(238,238,238,0.5); 
+  }
+}
+
+/* Style inputs */
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+/* Style the container/contact section */
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 10px;
+}
+
+/* Create two columns that float next to eachother */
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .column,
+  input[type="submit"] {
+    width: 100%;
+    margin-top: 0;
+  }
+}
